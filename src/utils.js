@@ -5,7 +5,9 @@ const answers = {
   no: false,
 };
 
-export const getRandomInt = () => Math.floor(Math.random() * Math.floor(MAX_INT));
+export const getRandomInt = (max = MAX_INT) => Math.floor(Math.random() * max);
+
+export const getRandomElement = (array) => array[getRandomInt(array.length)];
 
 export const getAnswerByValue = (value) => Object.keys(answers).find(
   (key) => answers[key] === value,
