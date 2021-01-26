@@ -30,4 +30,4 @@ npm link
 ```bash
 brain-even
 ```
-[![Play Brain-Even]](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi.svg)](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi)
+[![Play Brain-Even](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi.svg)](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi)
