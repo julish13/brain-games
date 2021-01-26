@@ -22,8 +22,7 @@ cd frontend-project-lvl1
 make
 npm link
 ```
-[![asciicast](https://asciinema.org/a/SGbU8Bstcles9tVkxdg1FhAmR.svg)](https://asciinema.org/a/SGbU8Bstcles9tVkxdg1FhAmR)
-
+[![Install](https://asciinema.org/a/swJTb5jx4ppuom5zENBYRY9Ep.svg)](https://asciinema.org/a/swJTb5jx4ppuom5zENBYRY9Ep)
 ## Игра "Проверка на чётность"
 
 Для запуска игры выполните команду:
@@ -31,4 +30,4 @@ npm link
 ```bash
 brain-even
 ```
-[![asciicast](https://asciinema.org/a/LC9D3ZIC9UKdKMLE4acChQHte.svg)](https://asciinema.org/a/LC9D3ZIC9UKdKMLE4acChQHte)
+[![Play Brain-Even]](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi.svg)](https://asciinema.org/a/LmG06aM9Xza06lMgIscRmq2Qi)
