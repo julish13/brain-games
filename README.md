@@ -30,4 +30,12 @@ npm link
 ```bash
 brain-even
 ```
-[![Play Brain-Even](https://asciinema.org/a/gqQrDmjPbXxRR4noaPwBF95wc.svg)](https://asciinema.org/a/gqQrDmjPbXxRR4noaPwBF95wc)
+[![Play Brain-Even](https://asciinema.org/a/YSmpRuUkYddqGTa8RzzmGemqW.svg)](https://asciinema.org/a/YSmpRuUkYddqGTa8RzzmGemqW)
+## Игра "Калькулятор"
+
+Для запуска игры выполните команду:
+
+```bash
+brain-calc
+```
+[![Play Brain-Calc](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8.svg)](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8)
