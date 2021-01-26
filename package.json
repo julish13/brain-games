@@ -1,8 +1,5 @@
 {
   "name": "@hexlet/code",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  },
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/julish13/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/julish13/frontend-project-lvl1/actions)",
   "main": "index.js",
@@ -14,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/julish13/frontend-project-lvl1.git"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/julish13/frontend-project-lvl1#readme",
   "dependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "readline-sync": "^1.4.10"
   }
 }
