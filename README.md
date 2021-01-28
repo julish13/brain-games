@@ -47,3 +47,11 @@ brain-calc
 brain-gcd
 ```
 [![Play Brain-GCD](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3.svg)](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3)
+## Игра "Арифметическая прогрессия"
+
+Для запуска игры выполните команду:
+
+```bash
+brain-progression
+```
+[![Play Brain-Progression](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij.svg)](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij)
