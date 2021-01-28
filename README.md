@@ -39,3 +39,11 @@ brain-even
 brain-calc
 ```
 [![Play Brain-Calc](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8.svg)](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8)
+## Игра "Наибольший общий делитель"
+
+Для запуска игры выполните команду:
+
+```bash
+brain-gcd
+```
+[![Play Brain-GCD](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3.svg)](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3)
