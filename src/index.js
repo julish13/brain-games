@@ -2,21 +2,21 @@ import cli, { getNameAndGreet } from './cli.js';
 
 const ITERATIONS = 3;
 
-export default (intro, getQuestionAndResult) => {
+const playGame = (intro, getQuestionAndAnswer) => {
   const name = getNameAndGreet();
 
   let iterator = 0;
 
   do {
     console.log(intro);
-    const [question, result] = getQuestionAndResult();
+    const [question, answer] = getQuestionAndAnswer();
     console.log(`Question: ${question}`);
-    const answer = cli('Your answer: ');
+    const userAnswer = cli('Your answer: ');
 
-    if (result === answer) {
+    if (answer === userAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${name}!`);
       break;
     }
@@ -28,3 +28,5 @@ export default (intro, getQuestionAndResult) => {
     }
   } while (iterator < ITERATIONS);
 };
+
+export default playGame;
