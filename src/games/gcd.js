@@ -4,12 +4,16 @@ import playGame from '../index.js';
 const intro = 'Find the greatest common divisor of given numbers.';
 
 const getGCD = (a, b) => {
-  if (b > a) [a, b] = [b, a];
+// had to create new variables to avoid linter errors (no-param-reassign rule)
+  let c = a;
+  let d = b;
+
+  if (d > c) [c, d] = [d, c];
   while (true) {
-    if (b === 0) return a;
-    a %= b;
-    if (a === 0) return b;
-    b %= a;
+    if (d === 0) return c;
+    c %= d;
+    if (c === 0) return d;
+    d %= c;
   }
 };
 
