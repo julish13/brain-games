@@ -55,3 +55,11 @@ brain-gcd
 brain-progression
 ```
 [![Play Brain-Progression](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij.svg)](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij)
+## Игра "Простое ли число?"
+
+Для запуска игры выполните команду:
+
+```bash
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/yAPMs1BJljzlEL6DJnwOUJwGW.svg)](https://asciinema.org/a/yAPMs1BJljzlEL6DJnwOUJwGW)
