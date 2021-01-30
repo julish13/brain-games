@@ -7,7 +7,7 @@ const mathItUp = {
   '*': (x, y) => x * y,
 };
 
-const intro = 'What is the answer of the expression?';
+const intro = 'What is the answer to this expression?';
 
 const getQuestionAndAnswer = () => {
   const number1 = getRandomInt();
