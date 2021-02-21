@@ -1,12 +1,12 @@
 import { getRandomInt, getAnswerByValue } from '../utils.js';
 import playGame from '../index.js';
 
-const intro = `Answer "${getAnswerByValue(true)}" if given number is prime. Otherwise answer "${getAnswerByValue(false)}".`;
+const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
   if (number < 2) return false;
 
-  for (let i = 2; i < Math.sqrt(number); i += 1) {
+  for (let i = 2; i <= Math.sqrt(number); i += 1) {
     if (number % i === 0) return false;
   }
 
@@ -20,5 +20,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  playGame(intro, getQuestionAndAnswer);
+  playGame(gameRules, getQuestionAndAnswer);
 };

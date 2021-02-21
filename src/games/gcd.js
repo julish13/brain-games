@@ -1,20 +1,11 @@
 import { getRandomInt } from '../utils.js';
 import playGame from '../index.js';
 
-const intro = 'Find the greatest common divisor of given numbers.';
+const gameRules = 'Find the greatest common divisor of given numbers.';
 
-const getGCD = (a, b) => {
-// had to create new variables to avoid linter errors (no-param-reassign rule)
-  let c = a;
-  let d = b;
-
-  if (d > c) [c, d] = [d, c];
-  while (true) {
-    if (d === 0) return c;
-    c %= d;
-    if (c === 0) return d;
-    d %= c;
-  }
+const getGCD = (number1, number2) => {
+  const residual = number1 % number2;
+  return (residual === 0) ? number2 : getGCD(number2, residual);
 };
 
 const getQuestionAndAnswer = () => {
@@ -27,5 +18,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  playGame(intro, getQuestionAndAnswer);
+  playGame(gameRules, getQuestionAndAnswer);
 };

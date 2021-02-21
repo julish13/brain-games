@@ -1,32 +1,29 @@
-import cli, { getNameAndGreet } from './cli.js';
+import { getAnswer, getNameAndGreet } from './cli.js';
 
-const ITERATIONS = 3;
+const ITERATIONS_COUNT = 3;
 
-const playGame = (intro, getQuestionAndAnswer) => {
+const playGame = (gameRules, getQuestionAndAnswer) => {
   const name = getNameAndGreet();
 
   let iterator = 0;
 
   do {
-    console.log(intro);
+    console.log(gameRules);
     const [question, answer] = getQuestionAndAnswer();
     console.log(`Question: ${question}`);
-    const userAnswer = cli('Your answer: ');
+    const userAnswer = getAnswer('Your answer: ');
 
-    if (answer === userAnswer) {
-      console.log('Correct!');
-    } else {
+    if (answer !== userAnswer) {
       console.log(`'${userAnswer}' is the wrong answer ;(. Correct answer is '${answer}'.`);
       console.log(`Let's try again, ${name}!`);
-      break;
+      return;
     }
 
+    console.log('Correct!');
     iterator += 1;
+  } while (iterator < ITERATIONS_COUNT);
 
-    if (iterator === ITERATIONS) {
-      console.log(`Congratulations, ${name}!`);
-    }
-  } while (iterator < ITERATIONS);
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default playGame;

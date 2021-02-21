@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/julish13/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/julish13/frontend-project-lvl1/actions)",
+  "description": "Игры для тренровки устного счета",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,6 @@
     "url": "git+https://github.com/julish13/frontend-project-lvl1.git"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
@@ -26,9 +25,11 @@
   },
   "homepage": "https://github.com/julish13/frontend-project-lvl1#readme",
   "dependencies": {
-    "eslint": "^7.18.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "7.18.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1"
   }
 }

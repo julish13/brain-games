@@ -1,26 +1,26 @@
 import { getRandomInt } from '../utils.js';
 import playGame from '../index.js';
 
-const mathItUp = {
+const MathOperations = {
   '+': (x, y) => x + y,
   '-': (x, y) => x - y,
   '*': (x, y) => x * y,
 };
 
-const intro = 'What is the answer to this expression?';
+const gameRules = 'What is the answer to this expression?';
 
 const getQuestionAndAnswer = () => {
-  const number1 = getRandomInt();
-  const number2 = getRandomInt();
+  const leftOperand = getRandomInt();
+  const rightOperand = getRandomInt();
 
-  const signs = Object.keys(mathItUp);
-  const sign = signs[getRandomInt(signs.length)];
+  const operators = Object.keys(MathOperations);
+  const operator = operators[getRandomInt(operators.length)];
 
-  const question = `${number1} ${sign} ${number2}`;
-  const answer = String(mathItUp[sign](number1, number2));
+  const question = `${leftOperand} ${operator} ${rightOperand}`;
+  const answer = String(MathOperations[operator](leftOperand, rightOperand));
   return [question, answer];
 };
 
 export default () => {
-  playGame(intro, getQuestionAndAnswer);
+  playGame(gameRules, getQuestionAndAnswer);
 };

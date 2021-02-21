@@ -8,6 +8,4 @@ const answers = {
 export const getRandomInt = (max = MAX_INT, min = 0) => Math.floor(Math.random() * (max - min))
 + min;
 
-export const getAnswerByValue = (value) => Object.keys(answers).find(
-  (key) => answers[key] === value,
-);
+export const getAnswerByValue = (value) => answers[value.toLowerCase()];

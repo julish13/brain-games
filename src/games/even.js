@@ -1,7 +1,7 @@
 import { getRandomInt, getAnswerByValue } from '../utils.js';
 import playGame from '../index.js';
 
-const intro = `Answer "${getAnswerByValue(true)}" if the number is even, otherwise answer "${getAnswerByValue(false)}".`;
+const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
@@ -12,5 +12,5 @@ const getQuestionAndAnswer = () => {
 };
 
 export default () => {
-  playGame(intro, getQuestionAndAnswer);
+  playGame(gameRules, getQuestionAndAnswer);
 };
