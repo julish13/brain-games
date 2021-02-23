@@ -1,11 +1,10 @@
 const MAX_INT = 100;
 
-const answers = {
-  yes: true,
-  no: false,
-};
+const answers = new Map([[true, 'yes'], [false, 'no']]);
 
-export const getRandomInt = (max = MAX_INT, min = 0) => Math.floor(Math.random() * (max - min))
+const getRandomInt = (max = MAX_INT, min = 0) => Math.floor(Math.random() * (max - min))
 + min;
 
-export const getAnswerByValue = (value) => answers[value.toLowerCase()];
+const getAnswerByValue = (value) => answers.get(value);
+
+export { getRandomInt, getAnswerByValue };
