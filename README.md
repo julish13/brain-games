@@ -23,8 +23,8 @@
 Для установки выполните следующие команды:
 
 ```bash
-git clone git@github.com:julish13/frontend-project-lvl1.git
-cd frontend-project-lvl1
+git clone git@github.com:julish13/brain-games.git
+cd brain-games
 make
 npm link
 ```
