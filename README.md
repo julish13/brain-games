@@ -1,7 +1,7 @@
 ### Brain Games
-[![Actions Status](https://github.com/julish13/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/julish13/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/e18b4b4a70e20392196a/maintainability)](https://codeclimate.com/github/julish13/frontend-project-lvl1/maintainability)
-![ESlint](https://github.com/julish13/frontend-project-lvl1/workflows/ESlint/badge.svg)
+[![Actions Status](https://github.com/julish13/brain-games/workflows/hexlet-check/badge.svg)](https://github.com/julish13/brain-games/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/78115e937c042c5d61e2/maintainability)](https://codeclimate.com/github/julish13/brain-games/maintainability)
+[![ESlint](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml/badge.svg)](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml)
 
 «Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
 

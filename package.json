@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julish13/frontend-project-lvl1.git"
+    "url": "git+https://github.com/julish13/brain-games.git"
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/julish13/frontend-project-lvl1/issues"
+    "url": "https://github.com/julish13/brain-games/issues"
   },
-  "homepage": "https://github.com/julish13/frontend-project-lvl1#readme",
+  "homepage": "https://github.com/julish13/brain-games#readme",
   "dependencies": {
     "readline-sync": "1.4.10"
   },
