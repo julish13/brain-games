@@ -1,5 +1,4 @@
 ### Brain Games
-[![Actions Status](https://github.com/julish13/brain-games/workflows/hexlet-check/badge.svg)](https://github.com/julish13/brain-games/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/78115e937c042c5d61e2/maintainability)](https://codeclimate.com/github/julish13/brain-games/maintainability)
 [![ESlint](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml/badge.svg)](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml)
 
