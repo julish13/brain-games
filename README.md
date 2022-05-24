@@ -2,30 +2,32 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/78115e937c042c5d61e2/maintainability)](https://codeclimate.com/github/julish13/brain-games/maintainability)
 [![ESlint](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml/badge.svg)](https://github.com/julish13/brain-games/actions/workflows/ESlint.yml)
 
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+«Brain Games» is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again. 
 
-- Калькулятор. Арифметические выражения, которые необходимо вычислить.
-- Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-- Определение четного числа.
-- Определение наибольшего общего делителя.
-- Определение простого числа.
+Games:
 
-### В рамках проекта усвоила:
-- настройка окружения проекта (npm, eslint, node.js);
-- проверка качества кода с CodeClimate;
-- непрерывная интеграция (Github Actions);
-- публикация и локальная установка npm-пакета.
+- Calculator. Arithmetic expressions to be evaluated.
+- Progression. Search for missing numbers in a sequence of numbers.
+- Definition of an even number.
+- Finding the Greatest Common Divisor.
+- Definition of a prime number.
 
-## Системные требования
+### While working on the project I learned:
+- setting up the project environment (npm, eslint, node.js);
+- checking code quality with CodeClimate;
+- continuous integration (Github Actions);
+- publishing and local installation of npm package.
 
- - Bash / Zsh
- - Make
- - Git
- - Node 13+
+## System requirements
 
-## Установка
+- bash / zsh
+- Make
+- Git
+- Node 13+
 
-Для установки выполните следующие команды:
+## Installation
+
+To install, run the following commands:
 
 ```bash
 git clone git@github.com:julish13/brain-games.git
@@ -34,41 +36,41 @@ make
 npm link
 ```
 [![Install](https://asciinema.org/a/swJTb5jx4ppuom5zENBYRY9Ep.svg)](https://asciinema.org/a/swJTb5jx4ppuom5zENBYRY9Ep)
-## Игра "Проверка на чётность"
+## "Brain Even"
 
-Для запуска игры выполните команду:
+To start the game run the following command:
 
 ```bash
 brain-even
 ```
 [![Play Brain-Even](https://asciinema.org/a/YSmpRuUkYddqGTa8RzzmGemqW.svg)](https://asciinema.org/a/YSmpRuUkYddqGTa8RzzmGemqW)
-## Игра "Калькулятор"
+## "Calculator"
 
-Для запуска игры выполните команду:
+To start the game run the following command:
 
 ```bash
 brain-calc
 ```
 [![Play Brain-Calc](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8.svg)](https://asciinema.org/a/rGKQJI7YU80IMf9KDomx0cVW8)
-## Игра "Наибольший общий делитель"
+## "GCD"
 
-Для запуска игры выполните команду:
+To start the game run the following command:
 
 ```bash
 brain-gcd
 ```
 [![Play Brain-GCD](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3.svg)](https://asciinema.org/a/uo1uGIpJjPQsk2IiiaxfhK0R3)
-## Игра "Арифметическая прогрессия"
+## "Arithmetic Progression"
 
-Для запуска игры выполните команду:
+To start the game run the following command:
 
 ```bash
 brain-progression
 ```
 [![Play Brain-Progression](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij.svg)](https://asciinema.org/a/ksLJtKy0BCuTXikwnsgAxYLij)
-## Игра "Простое ли число?"
+## "Brain Prime"
 
-Для запуска игры выполните команду:
+To start the game run the following command:
 
 ```bash
 brain-prime
